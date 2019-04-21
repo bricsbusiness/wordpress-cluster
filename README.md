@@ -18,11 +18,11 @@ Upon the package installation, a new environment with the following topology wil
 
 Click the **Deploy** button below, specify your email address within the widget,
 
-[WebWolf Hosting](https://webwolfhosting.com/install-application/?manifest=https://raw.githubusercontent.com/webwolfhosting/avada-wp-cluster/master/manifest.jps&keys=app.cloud.webwolf.systems&filter=auto_cluster) and press **Install**.
+[WebWolf Hosting](https://webwolfhosting.com/install-application/?manifest=https://raw.githubusercontent.com/webwolfhosting/wordpress-cluster/master/manifest.jps&keys=app.cloud.webwolf.systems&filter=auto_cluster) and press **Install**.
 
-[![Deploy to WebWolf Hosting](images/deploy-to-webwolf.png)](https://jelastic.com/install-application/?manifest=https://raw.githubusercontent.com/webwolfhosting/avada-wp-cluster/master/manifest.jps&keys=app.cloud.webwolf.systems&filter=auto_cluster)
+[![Deploy to WebWolf Hosting](images/deploy-to-webwolf.png)](https://jelastic.com/install-application/?manifest=https://raw.githubusercontent.com/webwolfhosting/wordpress-cluster/master/manifest.jps&keys=app.cloud.webwolf.systems&filter=auto_cluster)
 
-> **Note:** If you are already registered at WebWolf Hosting, you can deploy this cluster by importing the  [the package manifest raw link](https://raw.githubusercontent.com/webwolfhosting/avada-wp-cluster/master/manifest.jps) from within your dashboard.
+> **Note:** If you are already registered at WebWolf Hosting, you can deploy this cluster by importing the  [the package manifest raw link](https://raw.githubusercontent.com/webwolfhosting/wordpress-cluster/master/manifest.jps) from within your dashboard.
 
 ## Installation Process
 
