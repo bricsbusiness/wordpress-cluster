@@ -26,7 +26,7 @@ settings:
     
 nodes:
   - nodeType: mysql
-    tag: 8.0.15
+    tag: 5.7.22
     count: 2
     cloudlets: 8
     nodeGroup: sqldb
