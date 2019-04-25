@@ -38,8 +38,8 @@ onInstall:
   - if ('${settings.mode}'.toLowerCase() == 'subdom'):
       - cmd[${nodes.cp.master.id}]: |-
           wp plugin deactivate w3-total-cache --path=/var/www/webroot/ROOT
-          wp option update home 'http://${settings.domain}' --path=/var/www/webroot/ROOT
-          wp option update siteurl 'http://${settings.domain}' --path=/var/www/webroot/ROOT
+          wp option update home 'https://${settings.domain}' --path=/var/www/webroot/ROOT
+          wp option update siteurl 'https://${settings.domain}' --path=/var/www/webroot/ROOT
           wp core multisite-convert --path=/var/www/webroot/ROOT --subdomains 
 
       - cmd[cp]: |-
