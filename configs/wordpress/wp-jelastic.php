@@ -1,5 +1,4 @@
 <?php
-
 if (strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false) $_SERVER['HTTPS']='on';
 
 // ** WordPress reverse proxy x-forwarded-for ip fix ** //
