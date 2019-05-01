@@ -146,6 +146,7 @@ actions:
   - cmd[${this.nodeId}]: |-
       wget ${baseUrl}/configs/nginx/nginx.conf -O /etc/nginx/nginx.conf
       wget ${baseUrl}/configs/nginx/default.conf -O /etc/nginx/conf.d/default.conf
+      wget ${baseUrl}/configs/nginx/ssl.conf -O /etc/nginx/conf.d/ssl.conf
       wget ${baseUrl}/configs/php/wp-upload.ini -O /etc/php.d/wp-upload.ini
       wget ${baseUrl}/configs/php/opcache.ini -O /etc/php.d/opcache.ini
       sudo service nginx restart
